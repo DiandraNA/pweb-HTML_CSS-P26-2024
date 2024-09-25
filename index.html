@@ -50,13 +50,17 @@
             <img src="image3.jpg" alt="Produk 3">
         </div>
     </section>
+    
+    <div id="testimonial-placeholder"></div>
 
-    <!-- Testimoni -->
-    <section id="testimonials" class="testimonials">
-        <h2>Apa Kata Mereka?</h2>
-        <p>"Produk ini sangat bagus dan berkualitas tinggi!" - Pelanggan A</p>
-        <p>"Layanan cepat dan ramah." - Pelanggan B</p>
-    </section>
+    <script>
+        // JavaScript to load footer.html content
+        fetch('testimonial.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('testimonial-placeholder').innerHTML = data;
+            });
+    </script>
 
     <!-- Call to Action -->
     <section id="contact" class="contact">
