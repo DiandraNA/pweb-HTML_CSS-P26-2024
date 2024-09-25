@@ -64,9 +64,15 @@
         <a href="mailto:contact@umkm.com" class="btn">Hubungi Sekarang</a>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 UMKM. All rights reserved.</p>
-    </footer>
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // JavaScript to load footer.html content
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
