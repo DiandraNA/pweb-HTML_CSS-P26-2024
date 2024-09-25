@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Katalog</title>
+        <link rel="stylesheet" href="katalog.css">
+    </head>
+    <body>
+        <div class="full-img" id="fullImgBox">
+            <img src="image/jersey.jpeg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="image/kaos.jpeg" onclick="openFullImg(this.src)">
+            <img src="image/kaos-2.jpg" onclick="openFullImg(this.src)">
+            <img src="image/sepatu 002.jpg" onclick="openFullImg(this.src)">
+            <img src="image/sepatu-001.avif" onclick="openFullImg(this.src)">
+            <img src="image/topi.jpg" onclick="openFullImg(this.src)">
+            
+        </div>
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic) {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+        function closeFullImg() {
+            fullImgBox.style.display = "none";
+        }
+    </script>
+    </body>
+</html>
