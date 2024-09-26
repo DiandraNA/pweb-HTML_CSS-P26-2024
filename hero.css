@@ -6,7 +6,7 @@ body {
 
 .hero {
     position: relative;
-    background: url('https://images.pexels.com/photos/2570062/pexels-photo-2570062.jpeg') center/cover no-repeat;
+    background: url('image/landscape.jpeg') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;

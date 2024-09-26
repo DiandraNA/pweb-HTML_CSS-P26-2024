@@ -18,13 +18,17 @@
             });
     </script>
 
-    <!-- Landing Page -->
-    <section id="home" class="landing-page">
-        <h1>Selamat Datang di UMKM Kami</h1>
-        <p>Temukan produk lokal terbaik hanya di sini.</p>
-    </section>
-    
+    <div id="hero-placeholder"></div>
 
+    <script>
+        // JavaScript to load footer.html content
+        fetch('hero.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('hero-placeholder').innerHTML = data;
+            });
+    </script>
+    
     <!-- Tentang Produk -->
     <section id="about" class="about">
         <h2>Tentang Produk Kami</h2>

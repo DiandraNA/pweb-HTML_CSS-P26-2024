@@ -9,18 +9,6 @@ body {
     line-height: 1.6;
 }
 
-.landing-page {
-    background-image: url('background.jpg');
-    background-size: cover;
-    color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .about, .services, .gallery, .testimonials, .contact {
     padding: 50px 20px;
     text-align: center;
