@@ -9,28 +9,6 @@ body {
     line-height: 1.6;
 }
 
-.navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.navbar ul {
-    list-style: none;
-}
-
-.navbar ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 .landing-page {
     background-image: url('background.jpg');
     background-size: cover;
@@ -77,3 +55,4 @@ body {
     bottom: 0;
     width: 100%;
 }
+
