@@ -7,10 +7,21 @@
     </head>
     <body>
 
+        <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+
         <div class="full-img" id="fullImgBox">
             <img src="image/jersey.jpeg" id="fullImg">
             <span onclick="closeFullImg()">X</span>
         </div>
+        <div class="header">
+            <h1 style="color: #ecf4fb;">.</h1>
         <div class="img-gallery">
             <div>
                 <img src="image/kaos.jpeg" onclick="openFullImg(this.src)">
