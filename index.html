@@ -8,74 +8,39 @@
 </head>
 <body>
     <div id="navbar-placeholder"></div>
-
     <script>
-        // JavaScript to load footer.html content
         fetch('navbar.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navbar-placeholder').innerHTML = data;
             });
     </script>
-
     <div id="hero-placeholder"></div>
-
     <script>
-        // JavaScript to load footer.html content
         fetch('hero.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('hero-placeholder').innerHTML = data;
             });
     </script>
-    
-    <!-- Tentang Produk -->
     <section id="about" class="about">
         <h2>Tentang Produk Kami</h2>
-        <p>Produk kami berkualitas tinggi dan mendukung ekonomi lokal.</p>
+        <p>Kami dari MainBola.com dengan bangga menghadirkan koleksi atribut dan fashion sepak bola yang dirancang khusus untuk para penggemar sejati. Setiap produk dibuat dengan material premium yang mengutamakan kenyamanan dan daya tahan, mulai dari jersey ikonik yang menampilkan logo tim favorit hingga jaket sporty yang bisa dipakai kapan saja. Desain produk kami mengikuti tren terbaru dengan tetap mempertahankan semangat tradisional sepak bola, menciptakan gaya yang unik dan penuh karakter. Kami juga menyediakan berbagai aksesoris, seperti topi, syal, dan gelang, yang menambah sentuhan sempurna untuk penampilan Anda saat mendukung tim di stadion atau saat hangout bersama teman. Dengan ragam pilihan warna dan model yang dapat dipersonalisasi, kami memastikan setiap penggemar dapat menemukan sesuatu yang sesuai dengan kepribadiannya. Teruslah tampil penuh gaya sambil menunjukkan kecintaan Anda pada sepak bola bersama koleksi eksklusif kami!</p>
     </section>
-
-    <!-- Layanan / Katalog -->
-    <section id="services" class="services">
-        <h2>Layanan Kami</h2>
-        <ul>
-            <li>Produk A</li>
-            <li>Produk B</li>
-            <li>Produk C</li>
-        </ul>
-    </section>
-
-    <!-- Foto / Galeri -->
-    <section id="gallery" class="gallery">
-        <h2>Galeri Produk</h2>
-        <div class="gallery-grid">
-            <img src="image1.jpg" alt="Produk 1">
-            <img src="image2.jpg" alt="Produk 2">
-            <img src="image3.jpg" alt="Produk 3">
-        </div>
-    </section>
-    
     <div id="testimonial-placeholder"></div>
-
     <script>
-        // JavaScript to load footer.html content
         fetch('testimonial.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('testimonial-placeholder').innerHTML = data;
             });
     </script>
-
-    <!-- Call to Action -->
     <section id="contact" class="contact">
-        <h2>Hubungi Kami</h2>
+        <h1>Hubungi Kami</h1>
         <a href="mailto:contact@umkm.com" class="btn">Hubungi Sekarang</a>
     </section>
-
     <div id="footer-placeholder"></div>
-
     <script>
-        // JavaScript to load footer.html content
         fetch('footer.html')
             .then(response => response.text())
             .then(data => {
