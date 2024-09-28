@@ -43,21 +43,6 @@ body {
     animation: fadeInUp 1s ease-in-out 0.5s;
 }
 
-.hero-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #fff;
-    background-color: #3498db;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.hero-button:hover {
-    background-color: #2980b9;
-}
-
 @keyframes fadeInUp {
     from {
         opacity: 0;
